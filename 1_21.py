@@ -15,4 +15,6 @@ for n in range(maxtrials):
 
 #print(headsfreq)
 plt.plot(range(maxtrials),headsfreq)
+plt.xlabel("Number of trials averaged over")
+plt.ylabel("Frequency of heads")
 plt.show()
