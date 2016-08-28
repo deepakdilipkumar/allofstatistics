@@ -11,10 +11,10 @@ for i in range(trials):
 	if outcome==2 or outcome==4 or outcome==6:
 		A+=1
 
-	if outcome==1 or outcome==2 or outcome==3 or outcome==4:
+	if outcome==1 or outcome==2 or outcome==3:# or outcome==4:
 		B+=1
 	
-	if outcome==2 or outcome==4:
+	if outcome==2:# or outcome==4:
 		AB+=1
 
 
