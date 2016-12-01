@@ -1,12 +1,12 @@
 import numpy.random as rnd
 import numpy as np
 
-B=10000
+B=100000
 N1=50
 N2=50
 
-p1mle=0.3
-p2mle=0.4
+p1mle=0.6	
+p2mle=0.8
 
 estimate=[]
 
@@ -29,3 +29,4 @@ for i in range(B):
 	estimate.append(p2-p1)
 
 print(np.std(estimate))
+print(np.mean(estimate))
